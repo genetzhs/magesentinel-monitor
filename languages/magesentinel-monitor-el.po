@@ -1,0 +1,1428 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MageSentinel Monitor 2.3\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: magesentinel-monitor\n"
+
+msgid "Overview"
+msgstr "Επισκόπηση"
+
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgid "Open MageSentinel"
+msgstr "Άνοιγμα MageSentinel"
+
+msgid "Checkout monitoring for WooCommerce"
+msgstr "Παρακολούθηση checkout για WooCommerce"
+
+msgid "Connected"
+msgstr "Συνδεδεμένο"
+
+msgid "Not connected"
+msgstr "Δεν έχει συνδεθεί"
+
+msgid "Waiting for the first check"
+msgstr "Αναμονή πρώτου ελέγχου"
+
+msgid "No recent checks"
+msgstr "Κανένας πρόσφατος έλεγχος"
+
+#, php-format
+msgid "Last check %s ago."
+msgstr "Τελευταίος έλεγχος πριν από %s."
+
+#, php-format
+msgid "Last check %s ago. Is the monitor paused, or the token rotated?"
+msgstr "Τελευταίος έλεγχος πριν από %s. Μήπως ο έλεγχος είναι σε παύση ή άλλαξε το token;"
+
+msgid "Switch the connector on and paste your token under Settings."
+msgstr "Ενεργοποίησε τη σύνδεση και επικόλλησε το token στις Ρυθμίσεις."
+
+msgid "Ready. MageSentinel has not called in yet — run a check from your dashboard."
+msgstr "Έτοιμο. Το MageSentinel δεν έχει επικοινωνήσει ακόμα — τρέξε έναν έλεγχο από το dashboard."
+
+msgid "Store health"
+msgstr "Υγεία καταστήματος"
+
+#, php-format
+msgid "%1$d of %2$d checks healthy"
+msgstr "%1$d από %2$d έλεγχοι εντάξει"
+
+msgid "Everything that takes orders looks healthy"
+msgstr "Ό,τι χρειάζεται για να μπαίνουν παραγγελίες είναι εντάξει"
+
+msgid "Something is stopping or risking orders"
+msgstr "Κάτι σταματά ή απειλεί τις παραγγελίες"
+
+msgid "Worth a look"
+msgstr "Αξίζει μια ματιά"
+
+msgid "Orders today"
+msgstr "Παραγγελίες 24ώρου"
+
+msgid "Revenue today"
+msgstr "Τζίρος 24ώρου"
+
+#, php-format
+msgid "Same hours last week: %d"
+msgstr "Ίδιες ώρες πριν από μία εβδομάδα: %d"
+
+msgid "Failed payments"
+msgstr "Αποτυχημένες πληρωμές"
+
+msgid "last 24 hours"
+msgstr "τελευταίες 24 ώρες"
+
+msgid "Test orders"
+msgstr "Δοκιμαστικές παραγγελίες"
+
+msgid "Now"
+msgstr "Τώρα"
+
+#, php-format
+msgid "None from active plugins. %d came from a plugin that is now deactivated."
+msgstr "Κανένα από ενεργά plugins. %d προήλθαν από plugin που έχει πλέον απενεργοποιηθεί."
+
+#, php-format
+msgid "Most from: %s."
+msgstr "Τα περισσότερα από: %s."
+
+msgid "Today"
+msgstr "Σήμερα"
+
+msgid "Day"
+msgstr "Ημέρα"
+
+msgid "Hour"
+msgstr "Ώρα"
+
+msgid "Orders"
+msgstr "Παραγγελίες"
+
+msgid "Show as table"
+msgstr "Προβολή ως πίνακας"
+
+#, php-format
+msgid "Orders: %d"
+msgstr "Παραγγελίες: %d"
+
+msgid "cancelled automatically"
+msgstr "ακυρώθηκαν αυτόματα"
+
+msgid "Orders, last 7 days"
+msgstr "Παραγγελίες, τελευταίες 7 ημέρες"
+
+msgid "Orders by hour, last 24 hours"
+msgstr "Παραγγελίες ανά ώρα, τελευταίες 24 ώρες"
+
+msgid "MageSentinel test orders are not counted."
+msgstr "Οι δοκιμαστικές παραγγελίες του MageSentinel δεν μετράνε."
+
+msgid "No orders in the last 24 hours."
+msgstr "Καμία παραγγελία τις τελευταίες 24 ώρες."
+
+msgid "Health checks"
+msgstr "Έλεγχοι υγείας"
+
+msgid "Catalog"
+msgstr "Κατάλογος"
+
+msgid "Published"
+msgstr "Δημοσιευμένα"
+
+msgid "Out of stock"
+msgstr "Εξαντλημένα"
+
+msgid "Low stock"
+msgstr "Χαμηλό απόθεμα"
+
+msgid "On backorder"
+msgstr "Σε προπαραγγελία"
+
+msgid "products and variations"
+msgstr "προϊόντα και παραλλαγές"
+
+msgid "Updates"
+msgstr "Ενημερώσεις"
+
+msgid "Everything is up to date."
+msgstr "Όλα είναι ενημερωμένα."
+
+#, php-format
+msgid "WordPress %s is available"
+msgstr "Διαθέσιμο WordPress %s"
+
+msgid "Performance"
+msgstr "Απόδοση"
+
+msgid "Page cache"
+msgstr "Cache σελίδων"
+
+msgid "None detected"
+msgstr "Δεν εντοπίστηκε"
+
+msgid "Object cache"
+msgstr "Object cache"
+
+msgid "Persistent"
+msgstr "Μόνιμο"
+
+msgid "Database only"
+msgstr "Μόνο βάση"
+
+msgid "Errors on screen"
+msgstr "Σφάλματα στην οθόνη"
+
+msgid "Shown to visitors"
+msgstr "Εμφανίζονται στους επισκέπτες"
+
+msgid "Hidden"
+msgstr "Κρυφά"
+
+msgid "Test orders placed by MageSentinel"
+msgstr "Δοκιμαστικές παραγγελίες του MageSentinel"
+
+msgid "None yet. When real test orders are on, each one appears here with what happened to it."
+msgstr "Καμία ακόμα. Όταν είναι ενεργές οι δοκιμαστικές παραγγελίες, η καθεμία εμφανίζεται εδώ μαζί με το τι απέγινε."
+
+msgid "Order"
+msgstr "Παραγγελία"
+
+msgid "Placed"
+msgstr "Καταχωρήθηκε"
+
+msgid "Total"
+msgstr "Σύνολο"
+
+msgid "Status"
+msgstr "Κατάσταση"
+
+msgid "Cleaned up"
+msgstr "Καθαρισμός"
+
+msgid "Cancelled automatically"
+msgstr "Ακυρώθηκε αυτόματα"
+
+msgid "Left in place"
+msgstr "Παρέμεινε"
+
+#, php-format
+msgid "%s ago"
+msgstr "πριν από %s"
+
+msgid "Recent setting changes"
+msgstr "Πρόσφατες αλλαγές ρυθμίσεων"
+
+msgid "Names only, never values."
+msgstr "Μόνο ονόματα, ποτέ τιμές."
+
+msgid "MageSentinel settings"
+msgstr "Ρυθμίσεις MageSentinel"
+
+msgid "Connection"
+msgstr "Σύνδεση"
+
+msgid "In MageSentinel open your store, generate a connector token and paste it here. Only a hash of it is kept on this site."
+msgstr "Στο MageSentinel άνοιξε το κατάστημα, δημιούργησε ένα connector token και επικόλλησέ το εδώ. Σε αυτό το site κρατιέται μόνο ένα hash του."
+
+msgid "Enable the connector"
+msgstr "Ενεργοποίηση σύνδεσης"
+
+msgid "Lets MageSentinel read store health and confirm its test orders."
+msgstr "Επιτρέπει στο MageSentinel να διαβάζει την υγεία του καταστήματος και να επιβεβαιώνει τις δοκιμαστικές παραγγελίες του."
+
+msgid "Access token"
+msgstr "Token πρόσβασης"
+
+msgid "A token is set. Type a new one to replace it."
+msgstr "Υπάρχει token. Γράψε νέο για να το αντικαταστήσεις."
+
+msgid "No token set: MageSentinel cannot connect."
+msgstr "Δεν υπάρχει token: το MageSentinel δεν μπορεί να συνδεθεί."
+
+msgid "Only orders from a magesentinel+… address, under an hour old and unpaid. Never deleted, never anything else."
+msgstr "Μόνο παραγγελίες από διεύθυνση magesentinel+…, κάτω της μίας ώρας και απλήρωτες. Ποτέ διαγραφή, ποτέ τίποτα άλλο."
+
+msgid "Only requests that carry this store's token. Every visitor still gets the CAPTCHA. Works with CAPTCHA 4WP, reCAPTCHA for WooCommerce, hCaptcha for WP and Simple Cloudflare Turnstile."
+msgstr "Μόνο για αιτήματα που φέρουν το token αυτού του καταστήματος. Κάθε επισκέπτης βλέπει κανονικά το CAPTCHA. Λειτουργεί με CAPTCHA 4WP, reCAPTCHA for WooCommerce, hCaptcha for WP και Simple Cloudflare Turnstile."
+
+msgid "What MageSentinel can see"
+msgstr "Τι βλέπει το MageSentinel"
+
+msgid "Versions, active plugins, payment and shipping methods, order and stock counts, background task and error counts."
+msgstr "Εκδόσεις, ενεργά plugins, τρόποι πληρωμής και αποστολής, πλήθος παραγγελιών και αποθέματος, πλήθος εργασιών παρασκηνίου και σφαλμάτων."
+
+msgid "Never customer details, order contents, revenue or error messages."
+msgstr "Ποτέ στοιχεία πελατών, περιεχόμενο παραγγελιών, τζίρο ή μηνύματα σφαλμάτων."
+
+msgid "Save settings"
+msgstr "Αποθήκευση"
+
+msgid "Connection to MageSentinel"
+msgstr "Σύνδεση με το MageSentinel"
+
+msgid "Paste a new token to replace it"
+msgstr "Επικόλλησε νέο token για αντικατάσταση"
+
+msgid "Paste your connector token"
+msgstr "Επικόλλησε το connector token"
+
+msgid "Set"
+msgstr "Έχει οριστεί"
+
+msgid "Not set"
+msgstr "Δεν έχει οριστεί"
+
+msgid "WooCommerce emails (new, cancelled and failed order, customer emails) are not sent for test orders."
+msgstr "Τα emails του WooCommerce (νέα, ακυρωμένη, αποτυχημένη παραγγελία, emails πελάτη) δεν στέλνονται για δοκιμαστικές παραγγελίες."
+
+msgid "Save changes"
+msgstr "Αποθήκευση αλλαγών"
+
+msgid "Saving…"
+msgstr "Αποθήκευση…"
+
+msgid "Settings saved"
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν"
+
+msgid "Saved"
+msgstr "Αποθηκεύτηκε"
+
+msgid "Could not save. Try again."
+msgstr "Δεν αποθηκεύτηκε. Δοκιμάστε ξανά."
+
+msgid "Versions and active plugins"
+msgstr "Εκδόσεις και ενεργά plugins"
+
+msgid "Payment and shipping methods"
+msgstr "Τρόποι πληρωμής και αποστολής"
+
+msgid "Order and stock counts"
+msgstr "Πλήθος παραγγελιών και αποθέματος"
+
+msgid "Background task and error counts"
+msgstr "Πλήθος εργασιών παρασκηνίου και σφαλμάτων"
+
+msgid "What it never sees"
+msgstr "Τι δεν βλέπει ποτέ"
+
+msgid "Customer details"
+msgstr "Στοιχεία πελατών"
+
+msgid "Order contents and revenue"
+msgstr "Περιεχόμενο παραγγελιών και τζίρος"
+
+msgid "Error messages"
+msgstr "Μηνύματα σφαλμάτων"
+
+msgid "Plugin version"
+msgstr "Έκδοση plugin"
+
+msgid "Last contact"
+msgstr "Τελευταία επικοινωνία"
+
+msgid "Never"
+msgstr "Ποτέ"
+
+msgid "Store"
+msgstr "Κατάστημα"
+
+msgid "Open overview"
+msgstr "Άνοιγμα επισκόπησης"
+
+msgid "One thing needs attention"
+msgstr "Ένα θέμα θέλει προσοχή"
+
+#, php-format
+msgid "%d things need attention"
+msgstr "%d θέματα θέλουν προσοχή"
+
+#, php-format
+msgid "Store health %d%%"
+msgstr "Υγεία καταστήματος %d%%"
+
+msgid "Last MageSentinel check"
+msgstr "Τελευταίος έλεγχος MageSentinel"
+
+msgid "Last test purchase"
+msgstr "Τελευταία δοκιμαστική αγορά"
+
+msgid "Check again"
+msgstr "Επανέλεγχος"
+
+msgid "Healthy"
+msgstr "Εντάξει"
+
+msgid "Needs attention"
+msgstr "Προσοχή"
+
+msgid "Problem"
+msgstr "Πρόβλημα"
+
+msgid "vs the same hours a week ago"
+msgstr "από τις ίδιες ώρες πριν μία εβδομάδα"
+
+msgid "Same as the same hours a week ago"
+msgstr "Όσες και τις ίδιες ώρες πριν μία εβδομάδα"
+
+#, php-format
+msgid "average order %s"
+msgstr "μέση παραγγελία %s"
+
+#, php-format
+msgid "%d pending payment"
+msgstr "%d σε αναμονή πληρωμής"
+
+msgid "Test purchases"
+msgstr "Δοκιμαστικές αγορές"
+
+msgid "all cancelled"
+msgstr "όλες ακυρώθηκαν"
+
+#, php-format
+msgid "%d cancelled"
+msgstr "%d ακυρώθηκαν"
+
+msgid "not counted in the numbers"
+msgstr "δεν μετράνε στα νούμερα"
+
+msgid "total"
+msgstr "σύνολο"
+
+msgid "peak"
+msgstr "αιχμή"
+
+#, php-format
+msgid "Store time (%s)."
+msgstr "Ώρα καταστήματος (%s)."
+
+#, php-format
+msgid "%d out of stock"
+msgstr "%d εξαντλημένα"
+
+msgid "all in stock"
+msgstr "όλα διαθέσιμα"
+
+msgid "Published products"
+msgstr "Δημοσιευμένα προϊόντα"
+
+#, php-format
+msgid "Low stock (≤ %d)"
+msgstr "Λίγα τεμάχια (≤ %d)"
+
+#, php-format
+msgid "%d available"
+msgstr "%d διαθέσιμες"
+
+msgid "up to date"
+msgstr "ενημερωμένα"
+
+msgid "latest"
+msgstr "τελευταία"
+
+msgid "Active plugins"
+msgstr "Ενεργά plugins"
+
+msgid "After updating, run a check from MageSentinel so a test purchase confirms checkout still works."
+msgstr "Μετά την ενημέρωση, τρέξε έναν έλεγχο από το MageSentinel ώστε μια δοκιμαστική αγορά να επιβεβαιώσει ότι το checkout δουλεύει."
+
+msgid "Performance & security"
+msgstr "Απόδοση & ασφάλεια"
+
+msgid "on"
+msgstr "ενεργό"
+
+msgid "off"
+msgstr "ανενεργό"
+
+msgid "placed and cancelled automatically"
+msgstr "τοποθετούνται και ακυρώνονται αυτόματα"
+
+msgid "When"
+msgstr "Πότε"
+
+msgid "Product"
+msgstr "Προϊόν"
+
+msgid "Payment"
+msgstr "Πληρωμή"
+
+msgid "No changes recorded yet."
+msgstr "Δεν έχουν καταγραφεί αλλαγές ακόμα."
+
+msgid "Theme"
+msgstr "Θέμα"
+
+msgid "Shipping countries"
+msgstr "Χώρες αποστολής"
+
+msgid "Currency"
+msgstr "Νόμισμα"
+
+msgid "Taxes"
+msgstr "Φόροι"
+
+msgid "Guest checkout"
+msgstr "Αγορά χωρίς λογαριασμό"
+
+msgid "Checkout page"
+msgstr "Σελίδα ταμείου"
+
+msgid "Cart page"
+msgstr "Σελίδα καλαθιού"
+
+#, php-format
+msgid "Payment or shipping method: %s"
+msgstr "Τρόπος πληρωμής ή αποστολής: %s"
+
+msgid "WooCommerce setting"
+msgstr "Ρύθμιση WooCommerce"
+
+msgid "1 order"
+msgstr "1 παραγγελία"
+
+#, php-format
+msgid "%s orders"
+msgstr "%s παραγγελίες"
+
+#, php-format
+msgid "test purchase %s ago"
+msgstr "δοκιμαστική αγορά πριν από %s"
+
+msgid "Revenue"
+msgstr "Τζίρος"
+
+msgid "Failed"
+msgstr "Αποτυχίες"
+
+msgid "All checks"
+msgstr "Όλοι οι έλεγχοι"
+
+msgid "Fatal errors"
+msgstr "Σφάλματα PHP"
+
+msgid "checked just now"
+msgstr "ελέγχθηκαν μόλις τώρα"
+
+msgid "Review"
+msgstr "Άνοιγμα"
+
+msgid "Storefront"
+msgstr "Κατάστημα"
+
+msgid "Maintenance mode is on: every visitor gets a 503 and nobody can buy."
+msgstr "Η λειτουργία συντήρησης είναι ενεργή: κάθε επισκέπτης παίρνει 503 και κανείς δεν μπορεί να αγοράσει."
+
+msgid "Open. No maintenance flag."
+msgstr "Ανοιχτό. Χωρίς λειτουργία συντήρησης."
+
+msgid "Cart and checkout pages"
+msgstr "Σελίδες καλαθιού και ταμείου"
+
+#, php-format
+msgid "The %s page is not set or not published."
+msgstr "Η σελίδα %s δεν έχει οριστεί ή δεν είναι δημοσιευμένη."
+
+msgid "cart"
+msgstr "καλαθιού"
+
+msgid "checkout"
+msgstr "ταμείου"
+
+msgid "Both set and published."
+msgstr "Ορισμένες και δημοσιευμένες."
+
+msgid "Payment methods"
+msgstr "Τρόποι πληρωμής"
+
+msgid "No payment method is enabled: checkout cannot complete."
+msgstr "Κανένας τρόπος πληρωμής δεν είναι ενεργός: το ταμείο δεν μπορεί να ολοκληρωθεί."
+
+#, php-format
+msgid "%1$d enabled: %2$s."
+msgstr "%1$d ενεργοί: %2$s."
+
+msgid "Shipping"
+msgstr "Αποστολή"
+
+msgid "No shipping method in any zone. Fine for digital goods only."
+msgstr "Κανένας τρόπος αποστολής σε καμία ζώνη. Εντάξει μόνο για ψηφιακά προϊόντα."
+
+#, php-format
+msgid "%d method(s) across your zones."
+msgstr "%d τρόποι αποστολής στις ζώνες σας."
+
+#, php-format
+msgid "%1$d failed, %2$d still pending payment."
+msgstr "%1$d απέτυχαν, %2$d σε αναμονή πληρωμής."
+
+#, php-format
+msgid "%d recorded by WooCommerce in 24 hours."
+msgstr "%d καταγράφηκαν από το WooCommerce σε 24 ώρες."
+
+msgid "None recorded in 24 hours."
+msgstr "Καμία καταγραφή σε 24 ώρες."
+
+msgid "Background tasks"
+msgstr "Εργασίες παρασκηνίου"
+
+#, php-format
+msgid "%d scheduled action(s) failed"
+msgstr "%d προγραμματισμένες εργασίες απέτυχαν"
+
+#, php-format
+msgid "%d action(s) over an hour late"
+msgstr "%d εργασίες καθυστερούν πάνω από μία ώρα"
+
+#, php-format
+msgid "WP-Cron is %d minutes behind"
+msgstr "Το WP-Cron καθυστερεί %d λεπτά"
+
+msgid "Emails, webhooks and stock sync wait on these."
+msgstr "Από αυτές εξαρτώνται emails, webhooks και συγχρονισμός αποθέματος."
+
+msgid "Running on time."
+msgstr "Τρέχουν στην ώρα τους."
+
+msgid "WooCommerce database"
+msgstr "Βάση WooCommerce"
+
+msgid "A database update is waiting to run."
+msgstr "Εκκρεμεί ενημέρωση της βάσης δεδομένων."
+
+msgid "Disk"
+msgstr "Δίσκος"
+
+#, php-format
+msgid "%1$d%% used, %2$s free."
+msgstr "%1$d%% σε χρήση, %2$s ελεύθερα."
+
+msgid "Secure connection"
+msgstr "Ασφαλής σύνδεση"
+
+msgid "The store address is not HTTPS: browsers warn shoppers at checkout."
+msgstr "Η διεύθυνση του καταστήματος δεν είναι HTTPS: οι browsers προειδοποιούν τους πελάτες στο ταμείο."
+
+msgid "HTTPS."
+msgstr "HTTPS."
+
+msgid "PHP errors are printed on the page: shoppers can see them and they can break checkout requests."
+msgstr "Τα σφάλματα PHP τυπώνονται στη σελίδα: τα βλέπουν οι πελάτες και μπορούν να χαλάσουν τα αιτήματα του ταμείου."
+
+msgid "Monitored by MageSentinel"
+msgstr "Παρακολουθείται από το MageSentinel"
+
+msgid "Plans & pricing"
+msgstr "Πακέτα & τιμές"
+
+msgid "Try MageSentinel free"
+msgstr "Δοκίμασε δωρεάν το MageSentinel"
+
+msgid "MageSentinel sends the alerts"
+msgstr "Τις ειδοποιήσεις τις στέλνει το MageSentinel"
+
+msgid "Email alerts off"
+msgstr "Ειδοποιήσεις email κλειστές"
+
+msgid "No address for alerts"
+msgstr "Καμία διεύθυνση για ειδοποιήσεις"
+
+#, php-format
+msgid "Email alerts to %s"
+msgstr "Ειδοποιήσεις στο %s"
+
+msgid "Self-check"
+msgstr "Αυτοέλεγχος"
+
+msgid "Within the hour"
+msgstr "Μέσα στην ώρα"
+
+msgid "Alerts"
+msgstr "Ειδοποιήσεις"
+
+msgid "Test cart & checkout"
+msgstr "Δοκιμή καλαθιού & checkout"
+
+#, php-format
+msgid "%1$s updated %2$s ago. MageSentinel started a test purchase %3$s after it and alerts you if checkout broke."
+msgstr "Το %1$s ενημερώθηκε πριν από %2$s. Το MageSentinel ξεκίνησε δοκιμαστική αγορά %3$s μετά και σε ειδοποιεί αν χάλασε το checkout."
+
+#, php-format
+msgid "%1$s updated %2$s ago. MageSentinel tests checkout in a couple of minutes."
+msgstr "Το %1$s ενημερώθηκε πριν από %2$s. Το MageSentinel δοκιμάζει το checkout σε λίγα λεπτά."
+
+msgid "See every check on your store:"
+msgstr "Όλοι οι έλεγχοι του καταστήματός σου:"
+
+msgid "In progress…"
+msgstr "Σε εξέλιξη…"
+
+msgid "Test purchase"
+msgstr "Δοκιμαστική αγορά"
+
+msgid "MageSentinel did not recognise this store. Check the token under Settings."
+msgstr "Το MageSentinel δεν αναγνώρισε το κατάστημα. Ελέγξτε το token στις Ρυθμίσεις."
+
+msgid "This store has no active checkout monitor in MageSentinel."
+msgstr "Το κατάστημα δεν έχει ενεργό έλεγχο checkout στο MageSentinel."
+
+msgid "A test purchase was just run. Try again in a couple of minutes."
+msgstr "Μόλις έγινε δοκιμαστική αγορά. Δοκιμάστε ξανά σε δυο λεπτά."
+
+msgid "Could not reach MageSentinel. Try again."
+msgstr "Δεν ήταν δυνατή η σύνδεση με το MageSentinel. Δοκιμάστε ξανά."
+
+msgid "Opening the store"
+msgstr "Άνοιγμα καταστήματος"
+
+msgid "Finding a product"
+msgstr "Εύρεση προϊόντος"
+
+msgid "Product page"
+msgstr "Σελίδα προϊόντος"
+
+msgid "Adding to cart"
+msgstr "Προσθήκη στο καλάθι"
+
+msgid "Checking the cart"
+msgstr "Έλεγχος καλαθιού"
+
+msgid "Opening checkout"
+msgstr "Άνοιγμα ταμείου"
+
+msgid "Filling in customer details"
+msgstr "Συμπλήρωση στοιχείων πελάτη"
+
+msgid "Choosing shipping"
+msgstr "Επιλογή αποστολής"
+
+msgid "Choosing payment"
+msgstr "Επιλογή πληρωμής"
+
+msgid "Placing the order"
+msgstr "Υποβολή παραγγελίας"
+
+msgctxt "purchase step"
+msgid "Store"
+msgstr "Κατάστημα"
+
+msgctxt "purchase step"
+msgid "Product"
+msgstr "Προϊόν"
+
+msgctxt "purchase step"
+msgid "Cart"
+msgstr "Καλάθι"
+
+msgctxt "purchase step"
+msgid "Checkout"
+msgstr "Ταμείο"
+
+msgctxt "purchase step"
+msgid "Customer"
+msgstr "Στοιχεία"
+
+msgctxt "purchase step"
+msgid "Shipping"
+msgstr "Αποστολή"
+
+msgctxt "purchase step"
+msgid "Payment"
+msgstr "Πληρωμή"
+
+msgctxt "purchase step"
+msgid "Order"
+msgstr "Παραγγελία"
+
+msgctxt "purchase step"
+msgid "Confirmed"
+msgstr "Επιβεβαίωση"
+
+msgctxt "purchase step"
+msgid "Cancelled"
+msgstr "Ακύρωση"
+
+msgctxt "purchase step"
+msgid "Sign in"
+msgstr "Σύνδεση"
+
+msgctxt "purchase step"
+msgid "Search"
+msgstr "Αναζήτηση"
+
+msgid "Confirming the order"
+msgstr "Επιβεβαίωση παραγγελίας"
+
+msgid "Cancelling the test order"
+msgstr "Ακύρωση δοκιμαστικής παραγγελίας"
+
+msgid "Signing in"
+msgstr "Σύνδεση πελάτη"
+
+msgid "Waiting for a free browser…"
+msgstr "Αναμονή για ελεύθερο browser…"
+
+msgid "Starting…"
+msgstr "Εκκίνηση…"
+
+msgid "Passed: a customer can buy."
+msgstr "Πέρασε: ένας πελάτης μπορεί να αγοράσει."
+
+msgid "Failed: a customer could not buy."
+msgstr "Απέτυχε: ένας πελάτης δεν θα μπορούσε να αγοράσει."
+
+msgid "Passed, with warnings."
+msgstr "Πέρασε, με προειδοποιήσεις."
+
+msgid "Inconclusive: the check could not reach a verdict."
+msgstr "Χωρίς συμπέρασμα: ο έλεγχος δεν κατέληξε."
+
+msgid "View the full run in MageSentinel"
+msgstr "Δείτε όλο τον έλεγχο στο MageSentinel"
+
+msgid "Still running. The result will appear in MageSentinel."
+msgstr "Ακόμα τρέχει. Το αποτέλεσμα θα εμφανιστεί στο MageSentinel."
+
+msgid "Email alerts on"
+msgstr "Ειδοποιήσεις email ενεργές"
+
+msgid "On"
+msgstr "Ενεργές"
+
+msgid "Off"
+msgstr "Ανενεργές"
+
+msgid "The checks above read your settings. They cannot tell whether a shopper can actually pay."
+msgstr "Οι παραπάνω έλεγχοι διαβάζουν τις ρυθμίσεις σου. Δεν μπορούν να πουν αν ένας πελάτης όντως πληρώνει."
+
+msgid "MageSentinel buys something in your store from outside every hour, like a real customer, cancels the order, and tells you by email or Slack the moment checkout breaks."
+msgstr "Το MageSentinel αγοράζει κάθε ώρα κάτι από το κατάστημά σου, απ’ έξω, σαν πραγματικός πελάτης, ακυρώνει την παραγγελία και σε ειδοποιεί με email ή Slack τη στιγμή που χαλάει το checkout."
+
+msgid "Start 14 days free"
+msgstr "Ξεκίνα 14 ημέρες δωρεάν"
+
+msgid "Already have an account? Connect it"
+msgstr "Έχεις ήδη λογαριασμό; Σύνδεσέ τον"
+
+msgid "Email alerts"
+msgstr "Ειδοποιήσεις email"
+
+msgid "This site runs the health checks every 15 minutes and emails you when one turns red, and again when it is fixed. Free, no account: nothing leaves your server but the email."
+msgstr "Το site τρέχει τους ελέγχους υγείας κάθε 15 λεπτά και σου στέλνει email όταν κάποιος γίνει κόκκινος, και ξανά όταν διορθωθεί. Δωρεάν, χωρίς λογαριασμό: από τον server σου δε φεύγει τίποτα εκτός από το email."
+
+msgid "Email me when something stops orders"
+msgstr "Στείλε μου email όταν κάτι σταματά τις παραγγελίες"
+
+#, php-format
+msgid "Last self-check %s ago."
+msgstr "Τελευταίος αυτοέλεγχος πριν από %s."
+
+msgid "The first self-check runs within the hour."
+msgstr "Ο πρώτος αυτοέλεγχος τρέχει μέσα στην ώρα."
+
+msgid "Send alerts to"
+msgstr "Αποστολή ειδοποιήσεων σε"
+
+msgid "Empty: the site admin address."
+msgstr "Κενό: η διεύθυνση του διαχειριστή του site."
+
+msgid "MageSentinel is connected and sends your alerts, so these emails are paused to spare you duplicates. If MageSentinel stops checking in, they resume on their own."
+msgstr "Το MageSentinel είναι συνδεδεμένο και στέλνει τις ειδοποιήσεις σου, οπότε αυτά τα email είναι σε παύση για να μη λαμβάνεις διπλά. Αν το MageSentinel σταματήσει να επικοινωνεί, ξαναρχίζουν μόνα τους."
+
+msgid "No MageSentinel account yet? It places a real test purchase in your store every hour and alerts you when checkout breaks. 14 days free, no card."
+msgstr "Δεν έχεις ακόμα λογαριασμό MageSentinel; Κάνει κάθε ώρα μια πραγματική δοκιμαστική αγορά στο κατάστημά σου και σε ειδοποιεί όταν χαλάει το checkout. 14 ημέρες δωρεάν, χωρίς κάρτα."
+
+msgid "Create an account"
+msgstr "Δημιουργία λογαριασμού"
+
+msgid "Add real test purchases"
+msgstr "Πρόσθεσε πραγματικές δοκιμαστικές αγορές"
+
+msgid "Orders coming in"
+msgstr "Ροή παραγγελιών"
+
+#, php-format
+msgid "No order for %1$d hours. This store usually takes about %2$s a day."
+msgstr "Καμία παραγγελία εδώ και %1$d ώρες. Το κατάστημα συνήθως παίρνει περίπου %2$s την ημέρα."
+
+#, php-format
+msgid "As usual: about %s a day."
+msgstr "Κανονικά: περίπου %s την ημέρα."
+
+#, php-format
+msgid "MageSentinel checked %s and found something that stops or risks orders:"
+msgstr "Το MageSentinel έλεγξε το %s και βρήκε κάτι που σταματά ή απειλεί τις παραγγελίες:"
+
+#, php-format
+msgid "%1$d of %2$d checks are healthy. All checks:"
+msgstr "%1$d από %2$d έλεγχοι εντάξει. Όλοι οι έλεγχοι:"
+
+#, php-format
+msgid "[%s] Something is stopping or risking orders"
+msgstr "[%s] Κάτι σταματά ή απειλεί τις παραγγελίες"
+
+#, php-format
+msgid "The problem MageSentinel reported on %1$s is gone: %2$d of %2$d checks are healthy again."
+msgstr "Το πρόβλημα που ανέφερε το MageSentinel στο %1$s έφυγε: %2$d από %2$d έλεγχοι είναι ξανά εντάξει."
+
+#, php-format
+msgid "[%s] All clear again"
+msgstr "[%s] Όλα εντάξει ξανά"
+
+msgid "These checks run on your own site every 15 minutes. They read settings and counts, so they cannot tell whether a shopper can actually pay. MageSentinel can: it places a real test purchase from outside, every hour, and cancels it. 14 days free, no card:"
+msgstr "Αυτοί οι έλεγχοι τρέχουν στο δικό σου site κάθε 15 λεπτά. Διαβάζουν ρυθμίσεις και μετρήσεις, οπότε δεν μπορούν να πουν αν ένας πελάτης όντως πληρώνει. Το MageSentinel μπορεί: κάνει κάθε ώρα μια πραγματική δοκιμαστική αγορά απ’ έξω και την ακυρώνει. 14 ημέρες δωρεάν, χωρίς κάρτα:"
+
+msgid "Change or stop these emails:"
+msgstr "Αλλαγή ή διακοπή αυτών των email:"
+
+#, php-format
+msgid "%d failed in the last hour: a payment method may have stopped working."
+msgstr "%d αποτυχίες την τελευταία ώρα: μάλλον σταμάτησε να δουλεύει κάποιος τρόπος πληρωμής."
+
+#, php-format
+msgid "%1$s: %2$d failed and none paid, while other methods took %3$d."
+msgstr "%1$s: %2$d αποτυχίες και καμία πληρωμή, ενώ οι άλλοι τρόποι πήραν %3$d."
+
+#, php-format
+msgid "%1$s: %2$d failed and none paid."
+msgstr "%1$s: %2$d αποτυχίες και καμία πληρωμή."
+
+msgid "Live payments"
+msgstr "Πληρωμές σε live λειτουργία"
+
+#, php-format
+msgid "%s is in test mode: real cards are declined, or orders go through without the money being taken."
+msgstr "Το %s είναι σε test mode: οι πραγματικές κάρτες απορρίπτονται ή οι παραγγελίες περνούν χωρίς να χρεωθούν."
+
+msgid "No payment method is in test mode."
+msgstr "Κανένας τρόπος πληρωμής δεν είναι σε test mode."
+
+msgid "After the update"
+msgstr "Μετά την ενημέρωση"
+
+#, php-format
+msgid "%1$s updated %2$s ago. A MageSentinel test purchase has gone through since."
+msgstr "Το %1$s ενημερώθηκε πριν από %2$s. Από τότε πέρασε δοκιμαστική αγορά του MageSentinel."
+
+#, php-format
+msgid "%1$s updated %2$s ago. MageSentinel places its next test purchase within the hour."
+msgstr "Το %1$s ενημερώθηκε πριν από %2$s. Το MageSentinel κάνει την επόμενη δοκιμαστική αγορά μέσα στην ώρα."
+
+#, php-format
+msgid "%1$s updated %2$s ago. Updates are the most common reason a checkout breaks: place a test order."
+msgstr "Το %1$s ενημερώθηκε πριν από %2$s. Οι ενημερώσεις είναι ο συχνότερος λόγος που χαλάει το checkout: κάνε μια δοκιμαστική παραγγελία."
+
+msgid "Test it with a real purchase"
+msgstr "Δοκίμασέ το με πραγματική αγορά"
+
+#, php-format
+msgid "These were just updated on %s:"
+msgstr "Μόλις ενημερώθηκαν στο %s:"
+
+msgid "Updates are the most common reason a checkout that worked yesterday stops working. Place a test order now: add a product to the cart, go through checkout and pay."
+msgstr "Οι ενημερώσεις είναι ο συχνότερος λόγος που ένα checkout που δούλευε χθες σταματά να δουλεύει. Κάνε τώρα μια δοκιμαστική παραγγελία: βάλε ένα προϊόν στο καλάθι, πέρνα από το ταμείο και πλήρωσε."
+
+#, php-format
+msgid "[%s] Checkout plugins were updated: place a test order"
+msgstr "[%s] Ενημερώθηκαν plugins του checkout: κάνε μια δοκιμαστική παραγγελία"
+
+msgid "Weekly summary every Monday"
+msgstr "Εβδομαδιαία σύνοψη κάθε Δευτέρα"
+
+msgid "Orders, revenue and failed payments against the week before, and what needs a look."
+msgstr "Παραγγελίες, έσοδα και αποτυχημένες πληρωμές σε σχέση με την προηγούμενη εβδομάδα, και τι θέλει προσοχή."
+
+msgid "Send one now"
+msgstr "Αποστολή τώρα"
+
+#, php-format
+msgid "Sent to %s."
+msgstr "Στάλθηκε στο %s."
+
+msgid "Could not send the email."
+msgstr "Το email δεν στάλθηκε."
+
+msgid "same as the week before"
+msgstr "ίδια με την προηγούμενη εβδομάδα"
+
+msgid "vs the week before"
+msgstr "από την προηγούμενη εβδομάδα"
+
+#, php-format
+msgid "Your week on %1$s (%2$s):"
+msgstr "Η εβδομάδα σου στο %1$s (%2$s):"
+
+#, php-format
+msgid "Orders: %s"
+msgstr "Παραγγελίες: %s"
+
+#, php-format
+msgid "Revenue: %s"
+msgstr "Έσοδα: %s"
+
+#, php-format
+msgid "Average order: %s"
+msgstr "Μέση παραγγελία: %s"
+
+#, php-format
+msgid "Failed payments: %s"
+msgstr "Αποτυχημένες πληρωμές: %s"
+
+#, php-format
+msgid "%d the week before"
+msgstr "%d την προηγούμενη εβδομάδα"
+
+#, php-format
+msgid "Needs a look now (%1$d of %2$d checks):"
+msgstr "Θέλει προσοχή τώρα (%1$d από %2$d ελέγχους):"
+
+#, php-format
+msgid "All %d health checks are green right now."
+msgstr "Και οι %d έλεγχοι είναι πράσινοι αυτή τη στιγμή."
+
+msgid "Updated this week:"
+msgstr "Ενημερώθηκαν αυτή την εβδομάδα:"
+
+#, php-format
+msgid "MageSentinel placed %d test purchases this week (not counted above)."
+msgstr "Το MageSentinel έκανε %d δοκιμαστικές αγορές αυτή την εβδομάδα (δεν μετρούν παραπάνω)."
+
+msgid "The numbers show that orders came in; they cannot show the ones that could not. MageSentinel places a real test purchase every hour and tells you the moment checkout breaks. 14 days free, no card:"
+msgstr "Τα νούμερα δείχνουν τις παραγγελίες που ήρθαν· δεν μπορούν να δείξουν αυτές που δεν μπόρεσαν να έρθουν. Το MageSentinel κάνει μια πραγματική δοκιμαστική αγορά κάθε ώρα και σε ειδοποιεί μόλις χαλάσει το checkout. 14 μέρες δωρεάν, χωρίς κάρτα:"
+
+msgid "Full overview:"
+msgstr "Πλήρης επισκόπηση:"
+
+msgid "Stop this weekly email:"
+msgstr "Διακοπή αυτού του εβδομαδιαίου email:"
+
+#, php-format
+msgid "[%1$s] Your week: %2$s orders, %3$s"
+msgstr "[%1$s] Η εβδομάδα σου: %2$s παραγγελίες, %3$s"
+
+msgid "This week"
+msgstr "Αυτή την εβδομάδα"
+
+msgid "The week before"
+msgstr "Προηγούμενη εβδομάδα"
+
+msgid "Average order"
+msgstr "Μέση παραγγελία"
+
+msgid "Updated this week"
+msgstr "Ενημερώθηκαν αυτή την εβδομάδα"
+
+msgid "What the numbers cannot show"
+msgstr "Τι δεν μπορούν να δείξουν τα νούμερα"
+
+msgid "The numbers show that orders came in; they cannot show the ones that could not. MageSentinel places a real test purchase every hour and tells you the moment checkout breaks."
+msgstr "Τα νούμερα δείχνουν τις παραγγελίες που ήρθαν· δεν μπορούν να δείξουν αυτές που δεν μπόρεσαν να έρθουν. Το MageSentinel κάνει μια πραγματική δοκιμαστική αγορά κάθε ώρα και σε ειδοποιεί μόλις χαλάσει το checkout."
+
+msgid "tile:Failed payments"
+msgstr "Αποτυχίες"
+
+msgid "Try it 14 days free"
+msgstr "Δοκίμασέ το 14 μέρες δωρεάν"
+
+msgid "Weekly summary"
+msgstr "Εβδομαδιαία σύνοψη"
+
+msgid "Orders per day"
+msgstr "Παραγγελίες ανά ημέρα"
+
+msgid "Open the overview"
+msgstr "Άνοιγμα επισκόπησης"
+
+#, php-format
+msgid "Sent by the MageSentinel plugin on %s. MageSentinel test orders are not counted."
+msgstr "Στάλθηκε από το plugin MageSentinel στο %s. Οι δοκιμαστικές παραγγελίες του MageSentinel δεν μετρούν."
+
+msgid "Stop this weekly email"
+msgstr "Διακοπή αυτού του email"
+
+#, php-format
+msgid "%d checks need a look."
+msgstr "%d έλεγχοι θέλουν προσοχή."
+
+msgid "SSL certificate"
+msgstr "Πιστοποιητικό SSL"
+
+#, php-format
+msgid "Expired on %s: browsers block the store with a security warning."
+msgstr "Έληξε στις %s: οι browsers μπλοκάρουν το κατάστημα με προειδοποίηση ασφαλείας."
+
+#, php-format
+msgid "Expires in %1$d days (%2$s). If it is not renewed, browsers block the store with a security warning."
+msgstr "Λήγει σε %1$d μέρες (%2$s). Αν δεν ανανεωθεί, οι browsers θα μπλοκάρουν το κατάστημα με προειδοποίηση ασφαλείας."
+
+#, php-format
+msgid "Valid until %1$s (%2$d days)."
+msgstr "Ισχύει έως %1$s (%2$d μέρες)."
+
+msgid "Products without a price"
+msgstr "Προϊόντα χωρίς τιμή"
+
+#, php-format
+msgid "%1$s in stock but without a price, so nobody can add them to the cart: %2$s."
+msgstr "%1$s διαθέσιμα αλλά χωρίς τιμή, οπότε κανείς δεν μπορεί να τα βάλει στο καλάθι: %2$s."
+
+msgid "What MageSentinel tests every hour"
+msgstr "Τι ελέγχει το MageSentinel κάθε ώρα"
+
+msgid "The checks above read settings and counts from inside the site. MageSentinel also buys from outside, like a shopper: every step of a real purchase, every hour, and the test order is cancelled."
+msgstr "Οι έλεγχοι παραπάνω διαβάζουν ρυθμίσεις και μετρήσεις μέσα από το site. Το MageSentinel αγοράζει και απ' έξω, όπως ένας πελάτης: κάθε βήμα μιας πραγματικής αγοράς, κάθε ώρα, και η δοκιμαστική παραγγελία ακυρώνεται."
+
+msgid "No price (cannot be bought)"
+msgstr "Χωρίς τιμή (δεν αγοράζονται)"
+
+msgid "Payments by method"
+msgstr "Πληρωμές ανά τρόπο"
+
+msgid "last 7 days"
+msgstr "τελευταίες 7 μέρες"
+
+msgid "No payment method is enabled."
+msgstr "Δεν είναι ενεργός κανένας τρόπος πληρωμής."
+
+msgid "Method"
+msgstr "Τρόπος"
+
+msgid "Paid"
+msgstr "Πληρώθηκαν"
+
+msgid "Unpaid"
+msgstr "Απλήρωτες"
+
+msgid "Success"
+msgstr "Επιτυχία"
+
+msgid "Unpaid: orders created and never paid, what a payment page that fails to load leaves behind. MageSentinel test orders are not counted."
+msgstr "Απλήρωτες: παραγγελίες που δημιουργήθηκαν και δεν πληρώθηκαν ποτέ, ό,τι αφήνει πίσω της μια σελίδα πληρωμής που δεν φορτώνει. Οι δοκιμαστικές παραγγελίες του MageSentinel δεν μετρούν."
+
+msgid "Checkout, last 7 days"
+msgstr "Checkout, τελευταίες 7 μέρες"
+
+msgid "Reached checkout"
+msgstr "Έφτασαν στο checkout"
+
+msgid "Left without paying"
+msgstr "Έφυγαν χωρίς να πληρώσουν"
+
+msgid "Nobody has reached checkout yet."
+msgstr "Κανείς δεν έχει φτάσει ακόμα στο checkout."
+
+#, php-format
+msgid "%d%% of shoppers who reached checkout paid."
+msgstr "Το %d%% όσων έφτασαν στο checkout πλήρωσε."
+
+#, php-format
+msgid "Counting since %s, so the first week is partial."
+msgstr "Μετράει από %s, οπότε η πρώτη εβδομάδα είναι ελλιπής."
+
+msgid "Counting starts with the next shopper who reaches checkout."
+msgstr "Η μέτρηση ξεκινά με τον επόμενο πελάτη που θα φτάσει στο checkout."
+
+msgid "Counts only: no shopper details are kept."
+msgstr "Μόνο αριθμοί: δεν κρατιούνται στοιχεία πελατών."
+
+msgid "http:// to https://"
+msgstr "http:// προς https://"
+
+msgid "Visitors who type http:// are sent to the secure address."
+msgstr "Όποιος πληκτρολογεί http:// μεταφέρεται στην ασφαλή διεύθυνση."
+
+msgid "The http:// address opens without being sent to https://: shoppers can land on the insecure page and browsers mark it \"Not secure\"."
+msgstr "Η διεύθυνση http:// ανοίγει χωρίς να μεταφέρεται στο https://: οι πελάτες μπορεί να βρεθούν στη μη ασφαλή σελίδα και οι browsers τη σημειώνουν «Μη ασφαλής»."
+
+msgid "Security headers"
+msgstr "Security headers"
+
+msgid "WooCommerce checkout health"
+msgstr "Υγεία checkout WooCommerce"
+
+msgid "Something is stopping your store from taking orders"
+msgstr "Κάτι εμποδίζει το κατάστημά σας να δέχεται παραγγελίες"
+
+msgid "Your checkout works, with things worth a look"
+msgstr "Το checkout λειτουργεί, με σημεία που αξίζει να δείτε"
+
+msgid "Your WooCommerce checkout looks healthy"
+msgstr "Το checkout του WooCommerce δείχνει υγιές"
+
+msgid "Fix"
+msgstr "Διόρθωση"
+
+msgid "MageSentinel checks the settings and counts that quietly stop a store from taking money: pages, payment methods, failed payments, fatal errors, scheduled actions."
+msgstr "Το MageSentinel ελέγχει τις ρυθμίσεις και τα νούμερα που σταματούν αθόρυβα ένα κατάστημα να εισπράττει: σελίδες, τρόποι πληρωμής, αποτυχημένες πληρωμές, fatal errors, προγραμματισμένες εργασίες."
+
+msgid "Open the MageSentinel overview"
+msgstr "Άνοιγμα της επισκόπησης MageSentinel"
+
+#, php-format
+msgid "%1$d of %2$d"
+msgstr "%1$d από %2$d"
+
+msgid "This month's free test has been used. The next one is on %s."
+msgstr "Η δωρεάν δοκιμή αυτού του μήνα έχει γίνει. Η επόμενη είναι στις %s."
+
+msgid "MageSentinel could not reach this site from the internet to confirm the request."
+msgstr "Το MageSentinel δεν μπόρεσε να φτάσει αυτό το site από το internet για να επιβεβαιώσει το αίτημα."
+
+msgid "Too many tests right now. Try again later."
+msgstr "Πάρα πολλές δοκιμές αυτή τη στιγμή. Δοκιμάστε ξανά αργότερα."
+
+msgid "Free test used this month. Next one on %s."
+msgstr "Η δωρεάν δοκιμή του μήνα έγινε. Η επόμενη στις %s."
+
+msgid "Last result"
+msgstr "Τελευταίο αποτέλεσμα"
+
+msgid "Once a month, free and without an account: MageSentinel buys from your store like a shopper, up to the last click before paying."
+msgstr "Μία φορά τον μήνα, δωρεάν και χωρίς λογαριασμό: το MageSentinel αγοράζει από το κατάστημά σας σαν πελάτης, μέχρι το τελευταίο κλικ πριν την πληρωμή."
+
+msgid "Free test purchase"
+msgstr "Δωρεάν δοκιμαστική αγορά"
+
+msgid "slowest"
+msgstr "πιο αργό"
+
+msgid "{step} took {share}% of the check"
+msgstr "Το {step} πήρε το {share}% του ελέγχου"
+
+msgid "Where the time went"
+msgstr "Πού πήγε ο χρόνος"
+
+msgid "Revenue this week vs last week"
+msgstr "Έσοδα αυτής της εβδομάδας σε σχέση με την προηγούμενη"
+
+msgid "last week %s"
+msgstr "προηγ. εβδομάδα %s"
+
+msgid "Last week %s"
+msgstr "Προηγούμενη εβδομάδα %s"
+
+msgid "Checkout speed"
+msgstr "Ταχύτητα checkout"
+
+msgid "end to end, your free monthly tests"
+msgstr "από την αρχή ως το τέλος, οι δωρεάν μηνιαίες δοκιμές σας"
+
+msgid "end to end, last 30 test purchases"
+msgstr "από την αρχή ως το τέλος, τελευταίες 30 δοκιμαστικές αγορές"
+
+msgid "No test purchase yet. Run the free one above to see how long your checkout takes, from the home page to the last click before paying."
+msgstr "Καμία δοκιμαστική αγορά ακόμα. Τρέξτε τη δωρεάν δοκιμή παραπάνω για να δείτε πόσο διαρκεί το checkout σας, από την αρχική σελίδα ως το τελευταίο κλικ πριν την πληρωμή."
+
+msgid "No checks yet. Times appear here after MageSentinel's first test purchase."
+msgstr "Κανένας έλεγχος ακόμα. Οι χρόνοι εμφανίζονται εδώ μετά την πρώτη δοκιμαστική αγορά του MageSentinel."
+
+msgid "Last run"
+msgstr "Τελευταίος έλεγχος"
+
+msgid "Median, last %d"
+msgstr "Διάμεσος, τελευταίοι %d"
+
+msgid "passed"
+msgstr "πέρασε"
+
+msgid "passed, slow step"
+msgstr "πέρασε, αργό βήμα"
+
+msgid "problem"
+msgstr "πρόβλημα"
+
+msgid "Scale %s; dashed line = median."
+msgstr "Κλίμακα %s· διακεκομμένη γραμμή = διάμεσος."
+
+msgid "One point a month without an account. Connected, MageSentinel measures it on every check and tells you the moment it slows down."
+msgstr "Ένα σημείο τον μήνα χωρίς λογαριασμό. Συνδεδεμένο, το MageSentinel το μετρά σε κάθε έλεγχο και σας ειδοποιεί τη στιγμή που αργεί."
+
+msgid "Health over 7 days"
+msgstr "Υγεία τις τελευταίες 7 ημέρες"
+
+msgid "worst result of each day"
+msgstr "το χειρότερο αποτέλεσμα κάθε ημέρας"
+
+msgid "No check"
+msgstr "Χωρίς έλεγχο"
+
+msgid "The health checks run every 15 minutes on this site; each day keeps its worst result."
+msgstr "Οι έλεγχοι υγείας τρέχουν κάθε 15 λεπτά σε αυτό το site· κάθε ημέρα κρατά το χειρότερο αποτέλεσμά της."
+
+msgid "Selling, but out of stock"
+msgstr "Πουλάει, αλλά τελείωσε"
+
+msgid "sold in the last 30 days"
+msgstr "πωλήσεις τελευταίων 30 ημερών"
+
+msgid "Nothing that sold in the last 30 days has run out."
+msgstr "Τίποτα από όσα πουλήθηκαν τις τελευταίες 30 ημέρες δεν έχει τελειώσει."
+
+msgid "%d sold"
+msgstr "%d πωλήσεις"
+
+msgid "%d left"
+msgstr "%d απομένουν"
+
+msgid "Missed sales estimate: ~%s this month at the last 30 days' pace."
+msgstr "Εκτίμηση χαμένων πωλήσεων: ~%s αυτόν τον μήνα με τον ρυθμό των τελευταίων 30 ημερών."
+
+msgid "%d problem"
+msgid_plural "%d problems"
+msgstr[0] "%d πρόβλημα"
+msgstr[1] "%d προβλήματα"
+
+msgid "And %d more product."
+msgid_plural "And %d more products."
+msgstr[0] "Και %d ακόμα προϊόν."
+msgstr[1] "Και %d ακόμα προϊόντα."
+
+msgid "MageSentinel has watched your checkout through %d test purchase."
+msgid_plural "MageSentinel has watched your checkout through %d test purchases."
+msgstr[0] "Το MageSentinel έχει ελέγξει το checkout σου με %d δοκιμαστική αγορά."
+msgstr[1] "Το MageSentinel έχει ελέγξει το checkout σου με %d δοκιμαστικές αγορές."
+
+msgid "MageSentinel has been watching your store for two weeks."
+msgstr "Το MageSentinel παρακολουθεί το κατάστημά σου εδώ και δύο εβδομάδες."
+
+msgid "If it is useful to you, a short review on WordPress.org helps other store owners find it. It takes a minute."
+msgstr "Αν σου είναι χρήσιμο, μια σύντομη κριτική στο WordPress.org βοηθάει κι άλλους ιδιοκτήτες καταστημάτων να το βρουν. Παίρνει ένα λεπτό."
+
+msgid "Write a review"
+msgstr "Γράψε κριτική"
+
+msgid "Later"
+msgstr "Αργότερα"
+
+msgid "No, thanks"
+msgstr "Όχι, ευχαριστώ"
+
+msgid "Match my system"
+msgstr "Όπως το σύστημά μου"
+
+msgid "Light"
+msgstr "Φωτεινό"
+
+msgid "Dark"
+msgstr "Σκούρο"
+
+msgid "Colours"
+msgstr "Χρώματα"
+
+msgid "DNS on this server"
+msgstr "DNS σε αυτόν τον server"
+
+msgid "No nameserver in /etc/resolv.conf answers: this site cannot reach payment gateways, couriers or updates. Ask your host."
+msgstr "Κανένας nameserver στο /etc/resolv.conf δεν απαντά: το site δεν μπορεί να φτάσει σε τράπεζες, courier ή ενημερώσεις. Ενημερώστε τον πάροχο φιλοξενίας."
+
+msgid "Lookups take %1$s s: the first nameserver in /etc/resolv.conf (%2$s) does not answer, so every lookup waits %3$s s before trying the next. Remove it or move it down, or ask your host."
+msgstr "Η αναζήτηση διευθύνσεων κάνει %1$s s: ο πρώτος nameserver στο /etc/resolv.conf (%2$s) δεν απαντά, οπότε κάθε αναζήτηση περιμένει %3$s s πριν δοκιμάσει τον επόμενο. Αφαιρέστε τον ή μετακινήστε τον πιο κάτω, ή ενημερώστε τον πάροχο φιλοξενίας."
+
+msgid "Lookups answer in %s ms."
+msgstr "Οι αναζητήσεις απαντούν σε %s ms."
+
+msgid "Want an email the next time this happens? MageSentinel runs this check every hour. 14 days free, no card."
+msgstr "Θέλετε email την επόμενη φορά που θα συμβεί; Το MageSentinel κάνει αυτόν τον έλεγχο κάθε ώρα. 14 ημέρες δωρεάν, χωρίς κάρτα."
+
+msgid "Start the free trial"
+msgstr "Ξεκινήστε τη δωρεάν δοκιμή"
+
+msgid "Free plan: connector inactive"
+msgstr "Πλάνο Free: ο connector είναι ανενεργός"
+
+msgid "MageSentinel still checks your checkout once a day, without test orders or store diagnostics. The plugin can stay installed. Choose a plan for checks every 30 minutes."
+msgstr "Το MageSentinel συνεχίζει να ελέγχει το checkout μία φορά τη μέρα, χωρίς δοκιμαστικές παραγγελίες και διαγνωστικά του καταστήματος. Το plugin μπορεί να μείνει εγκατεστημένο. Επιλέξτε πλάνο για ελέγχους κάθε 30 λεπτά."
+
+msgid "Taking orders"
+msgstr "Λήψη παραγγελιών"
+
+msgid "Security"
+msgstr "Ασφάλεια"
+
+msgid "Platform"
+msgstr "Πλατφόρμα"
+
+msgid "slow"
+msgstr "αργό"
+
+msgid "slower than usual"
+msgstr "πιο αργό από συνήθως"
+
+msgid "Scale %s; dashed line = median, above the dotted line = slow."
+msgstr "Κλίμακα %s· διακεκομμένη γραμμή = διάμεσος, πάνω από τη διάστικτη = αργό."
+
+msgid "of checks without a problem"
+msgstr "των ελέγχων χωρίς πρόβλημα"
+
+msgid "Each square is one hour; hover a day for what went wrong."
+msgstr "Κάθε τετράγωνο είναι μία ώρα· περάστε το ποντίκι πάνω από μια μέρα για να δείτε τι χάλασε."
+
+msgid "Order emails sent"
+msgstr "Αποστολή email παραγγελιών"
+
+msgid "No orders needing an email in the last 24 hours."
+msgstr "Καμία παραγγελία που χρειάζεται email τις τελευταίες 24 ώρες."
+
+msgid "%1$d of %2$d orders in the last 24 hours got no \"New order\" email. Check the site's mail and WP-Cron."
+msgstr "%1$d από %2$d παραγγελίες των τελευταίων 24 ωρών δεν έστειλαν email «Νέα παραγγελία». Ελέγξτε το email του site και το WP-Cron."
+
+msgid "%1$d of %2$d orders in the last 24 hours got no \"New order\" email."
+msgstr "%1$d από %2$d παραγγελίες των τελευταίων 24 ωρών δεν έστειλαν email «Νέα παραγγελία»."
+
+msgid "The %d order in the last 24 hours got its email."
+msgid_plural "All %d orders in the last 24 hours got their email."
+msgstr[0] "Η %d παραγγελία των τελευταίων 24 ωρών πήρε το email της."
+msgstr[1] "Και οι %d παραγγελίες των τελευταίων 24 ωρών πήραν το email τους."
+
+msgid "Object cache reachable"
+msgstr "Object cache διαθέσιμο"
+
+msgid "%s does not answer. Every page goes back to the database, and the store slows down under load. Ask your host."
+msgstr "Το %s δεν απαντά. Κάθε σελίδα γυρίζει στη βάση δεδομένων και το κατάστημα αργεί όταν έχει κίνηση. Ρωτήστε τον πάροχο φιλοξενίας."
+
+msgid "%s answers."
+msgstr "Το %s απαντά."
+
+msgid "No injected scripts"
+msgstr "Χωρίς ενσωματωμένα κακόβουλα scripts"
+
+msgid "Obfuscated script found, the way card skimmers hide: %s. Check it before the next order."
+msgstr "Βρέθηκε συγκαλυμμένο script, όπως κρύβονται οι card skimmers: %s. Ελέγξτε το πριν την επόμενη παραγγελία."
+
+msgid "Checked %d pages and settings that print scripts."
+msgstr "Ελέγχθηκαν %d σελίδες και ρυθμίσεις που τυπώνουν scripts."
+
+msgid "No PHP files in uploads"
+msgstr "Χωρίς αρχεία PHP στα uploads"
+
+msgid "%1$d PHP file in wp-content/uploads, where only media belong. Likely a web shell: %2$s."
+msgid_plural "%1$d PHP files in wp-content/uploads, where only media belong. Likely a web shell: %2$s."
+msgstr[0] "%1$d αρχείο PHP στο wp-content/uploads, όπου ανήκουν μόνο αρχεία πολυμέσων. Πιθανό web shell: %2$s."
+msgstr[1] "%1$d αρχεία PHP στο wp-content/uploads, όπου ανήκουν μόνο αρχεία πολυμέσων. Πιθανό web shell: %2$s."
+
+msgid "None found."
+msgstr "Δεν βρέθηκε κανένα."
+
+msgid "No administrator called \"admin\""
+msgstr "Κανένας διαχειριστής με όνομα «admin»"
+
+msgid "An administrator logs in as \"admin\", the first name bots try. Create a new administrator with another name and delete this one, giving its content to the new user."
+msgstr "Ένας διαχειριστής συνδέεται ως «admin», το πρώτο όνομα που δοκιμάζουν τα bots. Δημιουργήστε νέο διαχειριστή με άλλο όνομα και διαγράψτε αυτόν, δίνοντας το περιεχόμενό του στον νέο χρήστη."
+
+msgid "No administrator uses the default name."
+msgstr "Κανένας διαχειριστής δεν χρησιμοποιεί το προεπιλεγμένο όνομα."
+
+#. translators: %1$d: hours without an order, %2$s: orders usually taken in that time
+msgid "No order for %1$d hours. At these hours of the week this store usually takes about %2$s orders."
+msgstr "Καμία παραγγελία για %1$d ώρες. Αυτές τις ώρες της εβδομάδας το κατάστημα παίρνει συνήθως περίπου %2$s παραγγελίες."
+
+msgid "A setting is wrong (fix it in the admin):"
+msgstr "Μια ρύθμιση είναι λάθος (διορθώστε τη στη διαχείριση):"
+
+msgid "The store is behaving differently than usual (look into it):"
+msgstr "Το κατάστημα συμπεριφέρεται διαφορετικά από το συνηθισμένο (ελέγξτε το):"
